@@ -4,11 +4,11 @@
 
 <script>
   export default {
-    data() {
+    /* data() {
       return {
         name: "Henny"
       }
-    },
+    }, */
     /* beforeRouteEnter: (to, from, next) => {
       // alert("Hello " + this.name);
       //next();
@@ -18,13 +18,13 @@
       })
     } */
 
-    beforeRouteLeave(to,from,next){
+    /* beforeRouteLeave(to,from,next){
       if(confirm("您确认离开吗？") == true){
         next()
       }else{
         next(false)
       }
-    }
+    } */
   }
 </script>
 
