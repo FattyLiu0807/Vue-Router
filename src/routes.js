@@ -36,19 +36,7 @@ export const routes = [{
   path: '/admin',
   name: 'adminLink',
   component: Admin,
-  //beforeEnter: (to, from, next) => {
-    //路由独享守卫
-    /* alert("非登录状态，不能访问此页面");
-    next(false); */
-    //判断store.gettes.isLogin === false
-    /* if (to.path == '/login' || to.path == '/register') {
-      next();
-    } else {
-      alert("您还未登录，请先登录！");
-      next('/login');
-    } */
-  //}
-},
+  },
 {
   path: '/about',
   name: 'aboutLink',
